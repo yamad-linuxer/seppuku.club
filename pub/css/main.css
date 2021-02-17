@@ -1,0 +1,110 @@
+header {
+    padding: 16px 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    margin: 16px;
+    text-align: center;
+}
+
+a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: bold;
+}
+.title a {
+    color: black;
+    text-decoration: none;
+}
+.title a:hover {
+    color: black;
+    text-decoration: none;
+}
+.subtitle {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: small;
+    color: #454545;
+}
+
+.paper {
+    background: white;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.15);
+}
+.noSelect {
+    cursor: pointer;
+    user-select: none;
+}
+
+#rightBlock div {
+    margin: 16px 8px;
+    padding: 4px;
+    text-align: center;
+}
+#rightBlock div img {
+    margin: 10%;
+    width: 80%;
+    border-radius: 25%;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.15);
+}
+#rightBlock div ul {
+    list-style: none;
+}
+
+#articleBox article {
+    margin: 16px 8px;
+    padding: 4px;
+}
+
+.articleInfo {
+    padding: 0 8px;
+}
+.articleInfo * {
+    display: inline-block;
+}
+
+hr.articleHr {
+    margin: 0;
+}
+
+.articleBody {
+    padding: 4% 6%;
+    padding-bottom: 0;
+}
+.articleBottom {
+    padding: 6%;
+    padding-top: 0;
+}
+.articleBottom > * {
+    margin-bottom: 0;
+}
+
+@media (max-width: 550px) {
+    header {
+        width: 92%;
+        text-align: center;
+        padding: 4%;
+    }
+
+    .topButton {
+        display: none;
+    }
+    #rightBlock div {
+        margin: 8px 4px;
+        padding: 2px;
+    }
+    #articleBox article {
+        margin: 8px 4px;
+        padding: 2px;
+    }
+}
