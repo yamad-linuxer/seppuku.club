@@ -1,5 +1,5 @@
 #### 使用している技術
 
-    CMS: ES/JSON
-    Style: HTML/CSS
+    System: JS/JSON
+    Layout: HTML/CSS
     Render: marked
